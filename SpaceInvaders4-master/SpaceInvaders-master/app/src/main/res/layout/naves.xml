@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <TextView
+        android:text="ELIGE TU NAVE"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:paddingTop="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_weight="0.40" />
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:background="@drawable/nave"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/textView6"
+        android:text=" "
+        android:layout_weight="0.17" />
+
+    <Button
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:layout_weight="0.06"
+        android:background="@drawable/nave2"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
+
