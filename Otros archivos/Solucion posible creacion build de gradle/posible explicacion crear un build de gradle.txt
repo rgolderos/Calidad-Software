@@ -1,0 +1,13 @@
+La parte buena que tiene Android Studio, es que te crea el build.gradle directamente con el proyecto segun lo vas haciendo.
+Para acceder a el y ejecutar sus lineas de comando para estudiar lo que hace, se puede hacer a traves de la terminal, o como
+se muestra en las siguientes fotos:
+
+1- Seleccionamos la pestaña gradle, en la parte derecha de la pantalla.
+2- Elegimos la raiz del proyecto que queremos estudiar, hacemos clic en el simbolo de gradle.
+3- Se nos abrira una ventana en la que podremos buscar o escribir la instruccion que queremos que realice nuestro gradle.
+4- Una vez elegida, podremos observar abriendo la pestaña "gradle console", situada en la parte inferior derecha, como se
+   va ejecutando la instruccion deseada.
+5- Hemos elegido dos instrucciones a realizar: la primera es tasks, que nos muestra las diferente instrucciones que podemos
+   realizar en nuestro gradle; la segunda es build, [que te realiza la compilacion - no se como explic. bien].
+6- En el caso de querer usar la terminal, deberemos llegar a la raiz del proyecto y, desde ahi, llamar a las distintas
+   instrucciones de gradle.
